@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ff5733;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    padding: 50px 20px;
+    background-color: #ffd1b3;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.products {
+    padding: 40px 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.btn-register {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.register-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffd1b3;
+}
+
+.register-section .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Styling untuk branding.html */
+.branding-header {
+    background-color: #ff5733;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.branding-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.branding-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.branding-product img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.branding-product-info {
+    max-width: 500px;
+    text-align: left;
+}
+
+.branding-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.branding-buy-btn {
+    background: #ff5733;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.branding-buy-btn:hover {
+    background: #e04e2f;
+}
+
+/* Produk terkait */
+.branding-related {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.branding-product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.branding-product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.branding-product-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.branding-footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}

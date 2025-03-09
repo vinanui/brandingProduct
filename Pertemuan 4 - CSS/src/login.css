@@ -1,0 +1,93 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Latar belakang */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+
+/* Container utama */
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Kotak login */
+.login-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Judul */
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #ff5e62;
+}
+
+/* Grup input */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Label */
+.input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Input */
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Tombol */
+.btn {
+    background: #ff5e62;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff9966;
+}
+
+/* Link register */
+p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+p a {
+    color: #ff5e62;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
